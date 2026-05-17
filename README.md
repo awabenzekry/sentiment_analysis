@@ -177,4 +177,4 @@ Instructions:
 ---
 
 **👩‍💻 Auteure : Awa Aimée Benzekry**  
-**📅 Mai 2026 · 🎓 TP1 — Sentiment Analysis · ENSET**
+**📅 2025/2026 · 🎓 HESTIM **
