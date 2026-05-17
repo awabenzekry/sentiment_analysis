@@ -34,16 +34,11 @@ Ce travail s'inscrit dans le cadre des **Systèmes Multi-Agents**, où des agent
 ## 📁 Structure du Projet
 
 ```
-sentiment_analysis/
+sentiments_analysis/
 ├── sa.ipynb              # Notebook principal
-├── cap1.png              # Distribution des sentiments
-├── cap2.png              # Distribution des gold examples
-├── imgsentiment1.png     # Courbes de stabilité (10 runs)
-├── main.py               # Script principal
-├── .env                  # Clé API (non versionné)
+├── main.py               # Script Python principal
+├── requirements.txt      # Dépendances Python
 ├── .gitignore
-├── .python-version
-├── pyproject.toml
 └── README.md
 ```
 
@@ -96,8 +91,6 @@ Le dataset `amazon_polarity` (HuggingFace) contient des avis clients Amazon anno
 | Langage | Nuancé, complexe | Direct, concret |
 | Mots-clés | Moins marqués | `broken`, `love it`, `waste`... |
 | Taille | 25 000 | 3 600 000 |
-
-![Distribution des sentiments](cap1.png)
 
 ---
 
@@ -165,8 +158,6 @@ Instructions:
 | Std | — | — |
 | Stabilité | ✅ | ✅ |
 
-![Stabilité des prompts](imgsentiment1.png)
-
 ### Conclusions
 
 - Le langage Amazon est plus **direct** → meilleure performance Zero-Shot vs IMDB
@@ -185,5 +176,5 @@ Instructions:
 
 ---
 
-**👨‍💻 Auteur : [TON NOM]**  
+**👩‍💻 Auteure : Awa Aimée Benzekry**  
 **📅 Mai 2026 · 🎓 TP1 — Sentiment Analysis · ENSET**
